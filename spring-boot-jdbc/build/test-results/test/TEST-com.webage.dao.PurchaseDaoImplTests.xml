@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.webage.dao.PurchaseDaoImplTests" tests="3" skipped="2" failures="0" errors="0" timestamp="2025-08-11T17:35:13" hostname="LABPC" time="1.507">
+  <properties/>
+  <testcase name="getPurchase()" classname="com.webage.dao.PurchaseDaoImplTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="getAllPurchases()" classname="com.webage.dao.PurchaseDaoImplTests" time="1.497"/>
+  <testcase name="savePurchase()" classname="com.webage.dao.PurchaseDaoImplTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[13:35:09.392 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.webage.dao.PurchaseDaoImplTests]: PurchaseDaoImplTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:35:09.624 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.webage.App for test class com.webage.dao.PurchaseDaoImplTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-08-11T13:35:10.403-04:00  INFO 3984 --- [    Test worker] com.webage.dao.PurchaseDaoImplTests      : Starting PurchaseDaoImplTests using Java 21.0.5 with PID 3984 (started by labadmin in C:\LabWork\SpringBoot\jdbc-starter)
+2025-08-11T13:35:10.412-04:00  INFO 3984 --- [    Test worker] com.webage.dao.PurchaseDaoImplTests      : No active profile set, falling back to 1 default profile: "default"
+2025-08-11T13:35:11.813-04:00  INFO 3984 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-11T13:35:12.287-04:00  INFO 3984 --- [    Test worker] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2025-08-11T13:35:12.296-04:00  INFO 3984 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@3b2e5c0d
+2025-08-11T13:35:12.296-04:00  INFO 3984 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-11T13:35:12.792-04:00  INFO 3984 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-08-11T13:35:13.443-04:00  INFO 3984 --- [    Test worker] com.webage.dao.PurchaseDaoImplTests      : Started PurchaseDaoImplTests in 3.527 seconds (process running for 6.068)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\labadmin\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.11\a38b16385e867f59a641330f0362ebe742788ed8\byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
