@@ -1,0 +1,9 @@
+---
+# Override the default port (8080) of the embedded web server:
+server:
+    port: 8081
+
+# Configure the port and URI of the back-end REST API:    
+api.server:
+    port: 8080
+    url: http://localhost:%s/customers
